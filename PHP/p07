@@ -1,0 +1,14 @@
+<!-- //Write a PHP Script that will check number is positive or negative -->
+
+<?php
+
+$a = 11;
+
+if ($a>0) {
+    echo "Positive";
+}
+else {
+    echo "Negative";
+}
+
+?>
