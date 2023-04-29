@@ -1,0 +1,15 @@
+//Program to swap the value without using third variable
+
+<?php
+
+$a = 12;
+$b = 97;
+
+$a = $a + $b;
+$b = $a - $b;
+$a = $a - $b;
+
+echo "After swapping the value of a is $a";
+echo "<br>";
+echo "After swapping the value of b is $b";
+?>
