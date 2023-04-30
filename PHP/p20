@@ -1,0 +1,15 @@
+<!--Write a simple PHP class which displays the following string : 'MyClass class 
+has initialized!'-->
+
+<?php
+
+class Myclass{
+    public function __construct()
+    {
+        echo "Myclass class has initialized";
+        
+    }
+}
+
+$a = new Myclass()
+?>
