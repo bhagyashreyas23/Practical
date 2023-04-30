@@ -1,0 +1,13 @@
+<!--  Write a PHP function that will take an integer value and return sum of digits -->
+
+<?php
+
+function sum($a,$b )
+{
+    return $a + $b;
+
+}
+
+echo sum(10,25)
+
+?>
