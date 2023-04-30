@@ -1,0 +1,19 @@
+<!--  Write a function to calculate the factorial of a number (non-negative integer). 
+The function
+accept the number as a argument -->
+
+<?php
+
+function factorial($a)
+{
+    $f = 1;
+    for ($i=1; $i <=$a; $i++) { 
+        $f = $f * $i;
+    }
+    return $f;
+
+}
+echo factorial(5)
+
+
+?>
